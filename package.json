@@ -1,5 +1,5 @@
 {
-  "name": "executive-resume",
+  "name": "professional-provenance-resume",
   "version": "0.2.0",
   "private": true,
   "type": "module",
@@ -11,4 +11,5 @@
   },
   "devDependencies": {
     "@playwright/test": "latest"
- 
+  }
+}
