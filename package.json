@@ -1,14 +1,14 @@
 {
   "name": "executive-resume",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Source-controlled executive resume publishing system for Joseph Jeremy Michael Walker, MBA.",
+  "description": "Source-controlled resume and portfolio publishing system.",
   "scripts": {
-    "render": "node scripts/render-pdf.mjs",
+    "build": "node scripts/build-html.mjs",
+    "render": "node scripts/build-html.mjs && node scripts/render-pdf.mjs",
     "pdf": "npm run render"
   },
   "devDependencies": {
     "@playwright/test": "latest"
-  }
-}
+ 
