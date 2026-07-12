@@ -1,0 +1,3 @@
+import { escapeHtml, hasText } from './helpers.mjs';
+const link=(label,url)=>hasText(url)?`<a href="${escapeHtml(url)}">${label}</a>`:'';
+export const renderMasthead=(resume={})=>{const i=resume.identity??{},c=resume.contact??{};if(!hasText(i.name)&&!hasText(i.title))return '';return `<header class="masthead"><div class="document-label">${escapeHtml(i.documentLabel??'')}</div><div class="masthead-grid"><div><h1>${escapeHtml(i.name??'')}</h1><p class="role">${escapeHtml(i.title??'')}</p><p
