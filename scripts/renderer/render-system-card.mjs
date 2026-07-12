@@ -1,0 +1,4 @@
+import { escapeHtml, hasText } from './helpers.mjs';
+import { renderList } from './render-list.mjs';
+
+export const renderSystemCard=(system={})=>{const name=hasText(system.name)?`<h3>${escapeHtml(system.name)}</h3>`:'';const subtitle=hasText(system.subtitle)?`<p class="system-subtitle">${escapeHtml(system.subtitle)}</p>`:'';const summary=hasText(system.summary)?`<p>${escapeHtml(system.summary)}</p>`:'';const validation=hasText(system.validation)?`<p class="validation"><strong>Validation:</strong> ${escapeHtml(system.validation)}</p>`:'';const highlights=renderList(system.highlights);const html=[name,subtitle,summary,validation,highlights].filter(Boolean).join('');return name&&html?`<article class="system-card">${html}</article>`:'';};
