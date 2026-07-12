@@ -8,6 +8,4 @@ export const renderContact = (contact = {}) => {
     renderLocation(contact.location),
     renderPhone(contact.phone),
     renderEmail(contact.email),
-    renderLink('LinkedIn', contact.linkedin),
-    renderLink('GitHub', contact.github),
-    renderLink('Technical Disclosure Commons', contact.tdc)
+    renderLink('LinkedIn',
