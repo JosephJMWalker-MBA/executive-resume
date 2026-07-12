@@ -6,10 +6,7 @@ export const escapeHtml = (value = '') =>
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
 
-export const joinItems = (items = []) =>
-  (Array.isArray(items) ? items : []).map(escapeHtml).join(' • ');
-
-export const hasText = (value) =>
-  typeof value === 'string' && value.trim().length > 0;
-
-export const hasItems
+export const asArray = (value) => Array.isArray(value) ? value : [];
+export const hasItems = (value) => asArray(value).length > 0;
+export const hasText = (value) => typeof value === 'string' && value.trim().length > 0;
+export const joinItems = (value
