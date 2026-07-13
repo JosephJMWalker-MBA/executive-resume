@@ -1,0 +1,2 @@
+import { escapeHtml, hasText } from './helpers.mjs';
+export const renderEducationEntry=(e={})=>{const i=hasText(e.institution)?`<h3>${escapeHtml(e.institution)}</h3>`:'';const c=hasText(e.credential)?`<p class="credential">${escapeHtml(e.credential)}</p>`:'';const y=hasText(e.year)?`<p class="year">${escapeHtml(e.year)}</p>`:'';const d=hasText(e.details)?`<p>${escapeHtml(e.details)}</p>`:'';const h=[i,c,y,d].filter(Boolean).join('');return h?`<article class="education-entry">${h}</article>`:'';};
