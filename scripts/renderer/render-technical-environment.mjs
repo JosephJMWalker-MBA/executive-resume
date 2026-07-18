@@ -1,0 +1,3 @@
+import { renderTechnicalGroup } from './render-technical-group.mjs';
+
+export const renderTechnicalEnvironment=(environment={})=>{const entries=environment&&typeof environment==='object'&&!Array.isArray(environment)?Object.entries(environment):[];const html=entries.map(([title,items])=>renderTechnicalGroup(title,items)).filter(Boolean).join('');return html?`<section class="technical-environment"><h2>Technical Environment</h2>${html}</section>`:'';};
