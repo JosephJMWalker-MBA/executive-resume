@@ -1,0 +1,3 @@
+import { hasText } from './helpers.mjs';
+
+export const getPdfFileName=(resume={})=>{if(hasText(resume.identity?.pdfFileName))return resume.identity.pdfFileName.endsWith('.pdf')?resume.identity.pdfFileName:`${resume.identity.pdfFileName}.pdf`;const name=hasText(resume.identity?.name)?resume.identity.name:'professional-resume';const slug=name.normalize('NFKD').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'');return `${slug||'professional-resume'}-Resume.pdf`;};
