@@ -1,0 +1,4 @@
+import { escapeHtml, hasText } from './helpers.mjs';
+import { renderPage } from './render-page.mjs';
+
+export const renderDocument=(resume={})=>{const name=resume.identity?.name;const label=resume.identity?.documentLabel;const title=[name,label].filter(hasText).map(escapeHtml).join(' — ')||'Professional Resume';return `<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>${title}</title><link rel="stylesheet" href="styles/screen.css" /><link rel="stylesheet" href="styles/print.css" media="print" /></head><body>${renderPage(resume)}</body></html>`;};
