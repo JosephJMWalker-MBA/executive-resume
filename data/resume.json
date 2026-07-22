@@ -139,6 +139,16 @@
       "subtitle": "Production Decision-Support Software",
       "summary": "Published production iOS applications through the Apple App Store, including HeadroomCalc for engineering calculation support and RMDAnalyzer for retirement distribution planning.",
       "url": "https://apps.apple.com/us/app/headroomcalc/id6754173227",
+      "links": [
+        {
+          "title": "HeadroomCalc — App Store",
+          "url": "https://apps.apple.com/us/app/headroomcalc/id6754173227"
+        },
+        {
+          "title": "RMDAnalyzer — App Store",
+          "url": "https://apps.apple.com/us/app/rmdanalyzer/id6753994543"
+        }
+      ],
       "highlights": ["HeadroomCalc", "RMDAnalyzer", "Apple App Store release process", "Decision-support software"]
     }
   ],
