@@ -127,13 +127,29 @@
       "name": "729-HTML-100",
       "subtitle": "Semantic Publishing & Knowledge Infrastructure",
       "summary": "Built a secure semantic publishing platform emphasizing multilingual public knowledge, accessibility, institutional memory, privacy-preserving search, and operational stewardship.",
+      "url": "https://729llc.com",
       "highlights": ["Semantic publishing", "Multilingual architecture", "Browser-local semantic search", "Security-first deployment", "Steward portal", "Static knowledge infrastructure"]
     },
     {
       "name": "Aerial Inspections LLC",
       "subtitle": "Operational Inspection Platform",
       "summary": "Developed operational software supporting regulated aerial inspection workflows, evidence management, reporting, and infrastructure documentation.",
+      "url": "https://inspectfromabove.com",
       "highlights": ["FAA Part 107 operations", "Inspection workflows", "Evidence management", "Technical reporting", "Operational documentation", "Client information systems"]
+    },
+    {
+      "name": "Masters Consulting Group",
+      "subtitle": "Consulting & Professional Services",
+      "summary": "Professional consulting presence supporting business, strategy, and advisory work.",
+      "url": "https://mastersconsultinggroup.org",
+      "highlights": ["Strategic consulting", "Business advisory", "Professional services"]
+    },
+    {
+      "name": "YurrMom.com",
+      "subtitle": "Creative Commerce & Media Brand",
+      "summary": "Creative brand and commerce platform for humorous media, product experimentation, and short-form advertising concepts.",
+      "url": "https://yurrmom.com",
+      "highlights": ["Creative direction", "Short-form advertising", "Affiliate commerce", "Brand experimentation"]
     },
     {
       "name": "Published iOS Applications",
