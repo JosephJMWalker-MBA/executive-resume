@@ -32,7 +32,10 @@
       "Python 4.0: A Gated, Forward-Safe Evolution (2025)"
     ],
     "books": [
-      "The Clarity Economy: The Fifth Industrial Revolution and the Fight for Signal Integrity (2026)",
+      {
+        "title": "The Clarity Economy: The Fifth Industrial Revolution and the Fight for Signal Integrity (2026)",
+        "url": "https://a.co/d/0hpPTccm"
+      },
       "AI Is AI: Why Metaphors Fail Us (2026)"
     ],
     "focus": "AI governance, provenance-aware computing, multi-agent systems, software architecture, trustworthy AI, distributed systems, information integrity, and decision intelligence."
