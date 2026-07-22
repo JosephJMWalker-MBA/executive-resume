@@ -113,6 +113,7 @@
       "name": "Sodateru.Shop",
       "subtitle": "Production AI-Enabled Commerce & Operations Platform",
       "summary": "Designed and deployed a production full-stack commerce platform integrating AI decision support, operational analytics, secure payment processing, fulfillment automation, and administrative workflows.",
+      "url": "https://sodateru.shop",
       "highlights": ["Next.js / TypeScript architecture", "AI Strategy Advisor", "Daily AI Growth Reports", "BTCPay Server integration", "Printful fulfillment automation", "Secure webhook infrastructure", "Operational analytics"]
     },
     {
