@@ -7,6 +7,8 @@
   "scripts": {
     "test": "node scripts/test-renderer.mjs && node scripts/test-normalize-profile.mjs && node scripts/test-links-renderer.mjs && node scripts/test-portfolio-renderer.mjs",
     "build": "node scripts/build-html.mjs && node scripts/build-links.mjs && node scripts/build-portfolio.mjs",
+    "test:generated": "node scripts/test-generated-output.mjs",
+    "verify": "npm test && npm run build && npm run test:generated",
     "render": "node scripts/build-html.mjs && node scripts/build-links.mjs && node scripts/build-portfolio.mjs && node scripts/render-pdf.mjs",
     "pdf": "npm run render"
   },
