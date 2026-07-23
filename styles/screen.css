@@ -31,11 +31,33 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible {
+  outline: 3px solid #2d6ca2;
+  outline-offset: 3px;
+  text-decoration: underline;
+}
+
 .resume {
   display: grid;
   gap: 28px;
   margin: 0 auto;
   width: var(--measure);
+}
+
+.surface-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.surface-nav a {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 12px;
 }
 
 .page {
@@ -394,10 +416,41 @@ dd {
     width: 100%;
   }
 
+  .surface-nav {
+    justify-content: flex-start;
+    padding: 16px 20px 0;
+  }
+
   .page {
     box-shadow: none;
     min-height: auto;
     padding: 28px;
+  }
+
+  p,
+  li,
+  dd,
+  dt,
+  .contact {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  h2 {
+    font-size: 13px;
+  }
+
+  h3,
+  .capability-grid h3 {
+    font-size: 16px;
+  }
+
+  .section-note,
+  .subtitle,
+  .evidence-header p,
+  .validation,
+  .resume-footer {
+    font-size: 13px;
   }
 
   .masthead-grid,
