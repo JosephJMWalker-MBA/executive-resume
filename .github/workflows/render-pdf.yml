@@ -1,13 +1,14 @@
-name: Render Resume PDF
+name: Verify Professional Publisher
 
 on:
+  pull_request:
   push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  render:
+  verify:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Test renderer
-        run: npm test
+      - name: Verify tests and generated web surfaces
+        run: npm run verify
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
@@ -31,8 +32,15 @@ jobs:
       - name: Render PDF
         run: npm run render
 
-      - name: Upload PDF artifact
+      - name: Verify PDF artifact exists
+        run: test -n "$(find dist -maxdepth 1 -name '*.pdf' -print -quit)"
+
+      - name: Upload generated publisher artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: professional-provenance-resume
-          path: dist/*.pdf
+          name: professional-provenance-publisher
+          path: |
+            index.html
+            links/index.html
+            portfolio/index.html
+            dist/*.pdf
