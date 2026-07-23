@@ -16,9 +16,10 @@ for (const path of expectedFiles) {
 }
 
 const links = await readFile('links/index.html', 'utf8');
-assert.match(links, /View executive resume/);
+assert.match(links, /href="\.\.\/index\.html">View executive resume<\/a>/);
 
 const portfolio = await readFile('portfolio/index.html', 'utf8');
-assert.match(portfolio, /View links|Professional portfolio/i);
+assert.match(portfolio, /href="\.\.\/index\.html">Resume<\/a>/);
+assert.match(portfolio, /href="\.\.\/links\/index\.html">Links<\/a>/);
 
 console.log('Generated output smoke tests passed');
