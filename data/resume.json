@@ -11,7 +11,7 @@
     "email": "joseph@729llc.com",
     "linkedin": "https://www.linkedin.com/in/joseph-walker-01ba9a181/",
     "github": "https://github.com/josephjmwalker-mba",
-    "tdc": "https://www.tdcommons.org/dpubs_series/9043/"
+    "tdc": "https://www.tdcommons.org/dpubs_series/10374"
   },
   "executiveProfile": [
     "Artificial intelligence systems architect with experience designing and deploying production software, AI governance frameworks, decision-support platforms, and knowledge systems across healthcare, commerce, engineering, education, and public infrastructure.",
@@ -20,17 +20,108 @@
   ],
   "publications": {
     "technicalDisclosureCommons": [
-      "System and Method for User-Owned Longitudinal Memory and Interpretation System with a Provenance-Tagged Interpretive Ledger, Engine-Interchangeable Inference, Federated Validation, and Generational Maintenance (2026)",
-      "The Living Memory System: Transforming Death Care Infrastructure into a Perpetual Relational Ecosystem for Memory Preservation, Family Continuity, and Citizen-Governed Memorial Stewardship (2026)",
-      "Deliberative Intelligence, Iterative Consensus, and Outcome-Grounded Wisdom via Reality Backpropagation (2026)",
-      "Coordinated, Heterogeneous Model Composition under a Shared Governance and Audit Layer (2025)",
-      "Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
-      "Anchored AI: Intent-Extraction, Anchor-Weighted Generation, and Synthetic Collapse Prevention for Human-Aligned AI (2025)",
-      "Python 4.0: A Gated, Forward-Safe Evolution (2025)"
+      {
+        "title": "System and Method for User-Owned Longitudinal Memory and Interpretation System with a Provenance-Tagged Interpretive Ledger, Engine-Interchangeable Inference, Federated Validation, and Generational Maintenance (2026)",
+        "url": "https://www.tdcommons.org/dpubs_series/10374"
+      },
+      {
+        "title": "The Living Memory System: Transforming Death Care Infrastructure into a Perpetual Relational Ecosystem for Memory Preservation, Family Continuity, and Citizen-Governed Memorial Stewardship (2026)",
+        "url": "https://www.tdcommons.org/dpubs_series/10061"
+      },
+      {
+        "title": "Deliberative Intelligence, Iterative Consensus, and Outcome-Grounded Wisdom via Reality Backpropagation (2026)",
+        "url": "https://www.tdcommons.org/dpubs_series/9840"
+      },
+      {
+        "title": "Coordinated, Heterogeneous Model Composition under a Shared Governance and Audit Layer (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/9043/"
+      },
+      {
+        "title": "System and Method for Relational Matching Using Non-Presentational Behavioral Signals",
+        "url": "https://www.tdcommons.org/dpubs_series/10031"
+      },
+      {
+        "title": "[Conversational Operating System] Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/9039"
+      },
+      {
+        "title": "Anchored AI: Intent-Extraction, Anchor-Weighted Generation, and Synthetic Collapse Prevention for Human-Aligned AI (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/8677"
+      },
+      {
+        "title": "Python 4.0 — A Gated, Forward-Safe Evolution (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/8766"
+      },
+      {
+        "title": "The Onshoring Opportunity Framework & National Reshoring Blueprint 2025",
+        "url": "https://www.tdcommons.org/dpubs_series/8702"
+      },
+      {
+        "title": "Unified Pre-Launch Causal Simulator",
+        "url": "https://www.tdcommons.org/dpubs_series/8685"
+      },
+      {
+        "title": "Unified, Site-Selectable Waterless Cooling Architecture for High-Density Computing",
+        "url": "https://www.tdcommons.org/dpubs_series/8684"
+      },
+      {
+        "title": "Cumulative UV-Responsive Coating for Structural Degradation Monitoring",
+        "url": "https://www.tdcommons.org/dpubs_series/8682"
+      },
+      {
+        "title": "WIC Victory Gardens: Integrating Micro-Farming into the Women, Infants, and Children Program",
+        "url": "https://www.tdcommons.org/dpubs_series/8676"
+      },
+      {
+        "title": "Ultraviolet Spectrum Coating for Drones to Deter Bird Interference",
+        "url": "https://www.tdcommons.org/dpubs_series/8672"
+      }
     ],
     "books": [
-      "The Clarity Economy: The Fifth Industrial Revolution and the Fight for Signal Integrity (2026)",
-      "AI Is AI: Why Metaphors Fail Us (2026)"
+      {
+        "title": "The Clarity Economy: The Fifth Industrial Revolution and the Fight for Signal Integrity (2026)",
+        "url": "https://a.co/d/0hpPTccm"
+      },
+      {
+        "title": "AI Is AI: Why Metaphors Fail Us (2026)",
+        "url": "https://a.co/d/0boDDhKp"
+      },
+      {
+        "title": "Before We Judged: An Illustrated Apologist’s Guide Through Exegesis of Genesis 1 & 2",
+        "url": "https://a.co/d/09pAtVhi"
+      },
+      {
+        "title": "The Royal We: Understanding The Trinity",
+        "url": "https://a.co/d/07nBgqiT"
+      },
+      {
+        "title": "Memes. Math & Science - Artistic Contemplation Book: A Coloring Book For Every Mind!",
+        "url": "https://a.co/d/036Ood6l"
+      },
+      {
+        "title": "Social Media Mastery: Strategies, Systems, and Playbooks for the Digital Era",
+        "url": "https://a.co/d/0a3g3QC4"
+      },
+      {
+        "title": "What Sound Does a Giraffe Make?: How to Keep Your Family Safe in a World Where Even Voices Can Be Faked",
+        "url": "https://a.co/d/017aUo6d"
+      },
+      {
+        "title": "Your Love Is Inescapable: I Carry You With Me",
+        "url": "https://a.co/d/047ftksW"
+      },
+      {
+        "title": "A Child Called Magic: We Made You On Purpose",
+        "url": "https://a.co/d/0bFm1qjG"
+      },
+      {
+        "title": "The Lesson From The Moonlit Garden: Dedicated to Brook's Bereavement Bears",
+        "url": "https://a.co/d/05DFJkdD"
+      },
+      {
+        "title": "Bonne Heures For Everyone",
+        "url": "https://a.co/d/0hT46SMr"
+      }
     ],
     "focus": "AI governance, provenance-aware computing, multi-agent systems, software architecture, trustworthy AI, distributed systems, information integrity, and decision intelligence."
   },
@@ -68,30 +159,59 @@
       "name": "Sodateru.Shop",
       "subtitle": "Production AI-Enabled Commerce & Operations Platform",
       "summary": "Designed and deployed a production full-stack commerce platform integrating AI decision support, operational analytics, secure payment processing, fulfillment automation, and administrative workflows.",
+      "url": "https://sodateru.shop",
       "highlights": ["Next.js / TypeScript architecture", "AI Strategy Advisor", "Daily AI Growth Reports", "BTCPay Server integration", "Printful fulfillment automation", "Secure webhook infrastructure", "Operational analytics"]
     },
     {
       "name": "Big Joke",
       "subtitle": "Human Performance Intelligence Platform",
       "summary": "Designed a structured creative workflow platform that transforms unstructured ideas into measurable performance data through metadata classification, multimedia capture, practice analytics, and AI-assisted coaching architecture.",
+      "url": "https://apps.apple.com/us/app/big-joke/id6771604436",
       "highlights": ["Structured knowledge models", "Metadata classification", "Practice analytics", "AI coaching framework", "Multimedia capture", "Performance intelligence"]
     },
     {
       "name": "729-HTML-100",
       "subtitle": "Semantic Publishing & Knowledge Infrastructure",
       "summary": "Built a secure semantic publishing platform emphasizing multilingual public knowledge, accessibility, institutional memory, privacy-preserving search, and operational stewardship.",
+      "url": "https://729llc.com",
       "highlights": ["Semantic publishing", "Multilingual architecture", "Browser-local semantic search", "Security-first deployment", "Steward portal", "Static knowledge infrastructure"]
     },
     {
       "name": "Aerial Inspections LLC",
       "subtitle": "Operational Inspection Platform",
       "summary": "Developed operational software supporting regulated aerial inspection workflows, evidence management, reporting, and infrastructure documentation.",
+      "url": "https://inspectfromabove.com",
       "highlights": ["FAA Part 107 operations", "Inspection workflows", "Evidence management", "Technical reporting", "Operational documentation", "Client information systems"]
+    },
+    {
+      "name": "Masters Consulting Group",
+      "subtitle": "Consulting & Professional Services",
+      "summary": "Professional consulting presence supporting business, strategy, and advisory work.",
+      "url": "https://mastersconsultinggroup.org",
+      "highlights": ["Strategic consulting", "Business advisory", "Professional services"]
+    },
+    {
+      "name": "YurrMom.com",
+      "subtitle": "Creative Commerce & Media Brand",
+      "summary": "Creative brand and commerce platform for humorous media, product experimentation, and short-form advertising concepts.",
+      "url": "https://yurrmom.com",
+      "highlights": ["Creative direction", "Short-form advertising", "Affiliate commerce", "Brand experimentation"]
     },
     {
       "name": "Published iOS Applications",
       "subtitle": "Production Decision-Support Software",
       "summary": "Published production iOS applications through the Apple App Store, including HeadroomCalc for engineering calculation support and RMDAnalyzer for retirement distribution planning.",
+      "url": "https://apps.apple.com/us/app/headroomcalc/id6754173227",
+      "links": [
+        {
+          "title": "HeadroomCalc — App Store",
+          "url": "https://apps.apple.com/us/app/headroomcalc/id6754173227"
+        },
+        {
+          "title": "RMDAnalyzer — App Store",
+          "url": "https://apps.apple.com/us/app/rmdanalyzer/id6753994543"
+        }
+      ],
       "highlights": ["HeadroomCalc", "RMDAnalyzer", "Apple App Store release process", "Decision-support software"]
     }
   ],
