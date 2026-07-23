@@ -40,7 +40,10 @@
         "title": "System and Method for Relational Matching Using Non-Presentational Behavioral Signals",
         "url": "https://www.tdcommons.org/dpubs_series/10031"
       },
-      "Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
+      {
+        "title": "[Conversational Operating System] Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/9039"
+      },
       "Anchored AI: Intent-Extraction, Anchor-Weighted Generation, and Synthetic Collapse Prevention for Human-Aligned AI (2025)",
       "Python 4.0: A Gated, Forward-Safe Evolution (2025)"
     ],
