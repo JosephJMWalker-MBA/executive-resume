@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "name": "Alex Morgan",
+    "documentLabel": "Professional Resume",
+    "title": "Operations Leader • Program Manager • Systems Builder",
+    "positioning": "Turning complex work into clear, reliable, and measurable operating systems."
+  },
+  "contact": {
+    "location": "Columbus, Ohio",
+    "email": "alex@example.com",
+    "linkedin": "https://www.linkedin.com/in/example",
+    "github": "https://github.com/example"
+  },
+  "executiveProfile": [
+    "Cross-functional operator with experience improving workflows, launching programs, and creating durable documentation.",
+    "Combines strategy, implementation, and measurement to help teams make repeatable progress."
+  ],
+  "publications": {
+    "technicalDisclosureCommons": [
+      {
+        "id": "example-disclosure",
+        "title": "Example Research or Technical Disclosure",
+        "url": "https://example.com/research",
+        "featured": true,
+        "order": 10,
+        "surfaces": {
+          "resume": true,
+          "portfolio": true,
+          "links": true
+        }
+      }
+    ],
+    "books": [
+      {
+        "id": "example-book",
+        "title": "Example Book or Long-Form Publication",
+        "url": "https://example.com/book",
+        "order": 20,
+        "surfaces": {
+          "resume": true,
+          "portfolio": true,
+          "links": false
+        }
+      }
+    ],
+    "focus": "Operations, program management, process design, documentation, and organizational learning."
+  },
+  "capabilities": [
+    {
+      "group": "Program Leadership",
+      "items": ["Program Design", "Cross-Functional Coordination", "Risk Management", "Stakeholder Communication"]
+    },
+    {
+      "group": "Systems & Operations",
+      "items": ["Process Mapping", "Workflow Automation", "Measurement", "Documentation"]
+    }
+  ],
+  "systems": [
+    {
+      "id": "example-system",
+      "name": "Example Operating System",
+      "subtitle": "Workflow and Decision Support",
+      "summary": "Designed a practical system that helps a team capture requests, make decisions, and track outcomes.",
+      "url": "https://example.com/system",
+      "featured": true,
+      "order": 10,
+      "surfaces": {
+        "resume": true,
+        "portfolio": true,
+        "links": true
+      },
+      "highlights": ["Reduced ambiguity", "Documented ownership", "Created measurable checkpoints"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Example University",
+      "credential": "Bachelor of Science",
+      "year": "2020",
+      "details": "Relevant study, honors, research, or professional preparation."
+    }
+  ],
+  "technicalEnvironment": {
+    "Tools": ["GitHub", "Spreadsheets", "Project Management Software"],
+    "Methods": ["Process Mapping", "Root-Cause Analysis", "Continuous Improvement"]
+  },
+  "achievements": [
+    "Launched a cross-functional program with clear ownership and measurable outcomes.",
+    "Created reusable documentation that reduced repeated questions and onboarding time."
+  ],
+  "principles": [
+    "Preserve evidence before making claims.",
+    "Document decisions so future contributors can understand them.",
+    "Use automation to support human judgment, not obscure it."
+  ],
+  "footer": "Evidence → Structure → Review → Publication"
+}
