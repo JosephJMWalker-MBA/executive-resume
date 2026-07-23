@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Source-controlled resume and portfolio publishing system.",
   "scripts": {
-    "test": "node scripts/test-renderer.mjs",
+    "test": "node scripts/test-renderer.mjs && node scripts/test-normalize-profile.mjs",
     "build": "node scripts/build-html.mjs",
     "render": "node scripts/build-html.mjs && node scripts/render-pdf.mjs",
     "pdf": "npm run render"
