@@ -26,7 +26,10 @@
       },
       "The Living Memory System: Transforming Death Care Infrastructure into a Perpetual Relational Ecosystem for Memory Preservation, Family Continuity, and Citizen-Governed Memorial Stewardship (2026)",
       "Deliberative Intelligence, Iterative Consensus, and Outcome-Grounded Wisdom via Reality Backpropagation (2026)",
-      "Coordinated, Heterogeneous Model Composition under a Shared Governance and Audit Layer (2025)",
+      {
+        "title": "Coordinated, Heterogeneous Model Composition under a Shared Governance and Audit Layer (2025)",
+        "url": "https://www.tdcommons.org/dpubs_series/9043/"
+      },
       "Dynamic System Prompt Architecture for Context State Governance in Large Language Models (2025)",
       "Anchored AI: Intent-Extraction, Anchor-Weighted Generation, and Synthetic Collapse Prevention for Human-Aligned AI (2025)",
       "Python 4.0: A Gated, Forward-Safe Evolution (2025)"
